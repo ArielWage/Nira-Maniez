@@ -2,35 +2,68 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <title>DESEMBERSAMAMU</title>
+  <title>HAI MANIEZ KU</title>
+  <link rel="stylesheet" href="style.css" <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+
 </head>
 
-<body style="background: url(nira.jp)no-repeat center fixed; background-size: cover; ">
-    <link rel="stylesheet" href="style.css">
-    <center>
-        <h1>HAI NIRA SUPRA:)</h1> <br>
-            <img src="https://c.tenor.com/Z8ezUHZzcLoAAAAC/love.gif" height="130" /> <br>
-        <br>
-        <br>
-        <h2>Wes moco suratku Nir? Mungkin kui perasaan sing isoh tak utarano nang koe, aku gak sempurna Nir, reti dewe aku wonge sederhana, tapi cintaku padamu tiada tara :)</h2> <br>
-        <h2>Kiro kiro isoh gak Nir yen aku luwih cedak ro koe?</h2> <br> <br>
-            <a href="https://wa.me/+6285714213309/?text=Aku nrimo koe ril, mugo awakdewe berjodoh" target="_blank">
-                <img src="hati merah.png" height="100">
-             </a>
-             <a href="https://wa.me/+6285714213309/?text=Sorry yo ril aku ra isoh nerimo koe, (alasan mu nir) tapi aku tetep pengen kekancan ro koe" target="_blank">
-                <img src="patah.png" alt="" height="100">
-             </a> <br>
-             <br>
-             <br>
-             <h2>Nyetel musik sek yekan</h2>    
-             <audio controls autoplay>
+<body style="background: url(nira.jpg)no-repeat center fixed; background-size: cover; ">
+  <style>
+    font {
+      color: white; 
+    }
+    font {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    }
+    
+  </style>
+  <center>
+    <audio src="" hidden autoplay loop></audio>
+    <font size="6" face="Poppins medium">HAI NIRA SUPRA :) </font><br>
+    <img src="https://c.tenor.com/Z8ezUHZzcLoAAAAC/love.gif" height="100" />
+    </br>
+    </br>
+    <font size="5" face="Poppins medium">Wes moco suratku Nir? Mungkin kui perasaan sing isoh tak utarano nang koe, aku gak sempurna Nir, reti dewe aku wonge sederhana, tapi cintaku padamu tiada tara :) Kiro kiro isoh gak Nir yen aku luwih cedak ro koe?</font>
+    </br>
+    </br>
+
+
+    <a href="https://wa.me/+6285714213309/?text=Aku nrimo koe ril, mugo awakdewe berjodoh" target="_blank">
+      <img src="hati merah.png" alt="" height="60">
+    </a>
+    <a href="https://wa.me/+6285714213309/?text=Sorry yo ril aku ra isoh nerimo koe, (alasan mu nir) tapi aku tetep pengen kekancan ro koe"
+      target="_blank">
+      <img src="patah.png" alt="" height="60">
+    </a>
+    <br>
+    <br>
+    <font size="5" face="Poppins medium">Nyetel musik sek yekan</font><br>
+    <audio controls autoplay>
                 <source src="The Vamps.mp3">
              </audio>
-             
-    </center>
-    
-    
+  </center>
+
+  
+
 </body>
+
+
+<script>
+  function gamau(id) {
+    var mau = document.getElementById("btn_mau");
+    var i = Math.floor(Math.random() * 300) + 1;
+    var j = Math.floor(Math.random() * 100) + mau.offsetTop;
+
+    id.style.left = i + "px";
+    id.style.top = j + "px";
+  }
+</script>
 
 </html>
